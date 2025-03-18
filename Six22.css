@@ -171,18 +171,50 @@ a .logo-title{
 
 .service-heading {
     font-size: 20px;
-    /* font-family: '"Handlee", cursive'; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .hide{
     display: none;
 }
+.mobile-nav{
+    position: absolute;
+    display: none;
+    height: 100vh;
+    max-width: 300px;
+    background-color: #636262;
+    z-index: 50;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
+.menuItems li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menuItems li{
+    list-style: none;
+    padding: 15px 0px;
+}
+
+.menuItems li a:hover {
+    color: #6A0D91;
+}
+
+.menuItems li a:target{
+    color: #6A0D91;
+    font-weight: bold;
+}
+
 
 /* Testimonials */
 .testimonials {
     text-align: center;
-    padding: 50px 20px;
-    background: #f8f8f8;
+    padding: 60px 60px;
+    background: #f9f9f9;
 }
 
 .testimonials h2 {
@@ -197,8 +229,7 @@ a .logo-title{
     white-space: nowrap;
     position: relative;
     width: 100%;
-    background: #f9f9f9;
-    padding: 20px 0;
+    padding: 20px 2px;
 }
 
 .testimonial-slider {
@@ -319,7 +350,7 @@ footer {
 }
 
 
-@media (max-width: 796px){
+@media (max-width: 1024px){
     .grid-services{
         grid-template-columns: repeat(1,1fr);
     }
@@ -378,3 +409,4 @@ footer {
         margin: 5px;
     }
 }
+
