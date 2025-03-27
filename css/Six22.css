@@ -125,6 +125,15 @@ a .logo-title{
 .services-section{
     margin: 60px 60px;
 }
+
+.services-header {
+    font-size: 40px;
+    font-weight: bold;
+    color: #6A0D91;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .service-item{
     display: flex;
     align-items: center; 
@@ -141,7 +150,6 @@ a .logo-title{
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: minmax(200px,auto);
     gap: 20px;
-    padding: 10px;
 }
 
 .grid-services > div {
@@ -153,7 +161,6 @@ a .logo-title{
   }
 
 .services-text{
-    /* padding-left: 1rem;  */
     text-align: left;
     flex: 1;
 }
@@ -173,9 +180,11 @@ a .logo-title{
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .hide{
     display: none;
 }
+
 .mobile-nav{
     position: absolute;
     display: none;
@@ -222,6 +231,7 @@ a .logo-title{
     font-weight: bold;
     margin-bottom: 20px;
     color: #6A0D91;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .testimonial-wrapper {
@@ -277,9 +287,72 @@ a .logo-title{
     }
 }
 
+/* Project section */
+.projects-section {
+    margin: 60px 60px;
+}
+
+.projects-header {
+    font-size: 40px;
+    font-weight: bold;
+    color: #6A0D91;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-projects {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(200px,auto);
+    gap: 20px;
+}
+
+.grid-projects > div{
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.grid-item{
+    color: #000;
+}
+.project-image{
+    transition: 0.2s ease-in ;
+}
+
+.project-image:hover{
+    transform: scale(1.07);
+    transition: 0.4s ease-in-out;
+}
+
+.project-image{
+    height: 182px;
+    width: 189px;
+}
+
+.project-item {
+    align-items: center;
+}
+
+.project-header {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.project-description {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project-image {
+    width: 50%;
+
+}
 
 /* Footer Section */
-footer {
+.footer {
     background: aliceblue;
     color: black;
     padding: 40px 20px;
@@ -407,6 +480,10 @@ footer {
     
     .social-icons a {
         margin: 5px;
+    }
+
+    .testimonial-slider {
+        animation: scroll 15s linear infinite;
     }
 }
 

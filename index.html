@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Six22</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./Six22.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/Six22.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <div class="navbar">
         <div class="logo">
             <a href="">
-                <img src="./six22rmv.png" alt="logo 0">
+                <img src="./assets/images/six22rmv.png" alt="logo 0">
             </a>
             <a href=""><span class="logo-title">Six22</span></a>
         </div>
@@ -63,11 +63,12 @@
                     <button class="btn-home">Learn more</button>
                 </div>
                 <div class="col-lg-6 right">
-                    <img src="./family.webp" alt="Family development" style="border-radius: 4px;">
+                    <img src="/assets/images/family.webp" alt="Family development" style="border-radius: 4px;">
                 </div>
     </section>
 
     <section class="services-section">
+        <p class="services-header">Services</p>
         <div class="grid-container grid-services">
             <div class="grid-container-item">
                 <div class="service-item">
@@ -153,6 +154,41 @@
         </div>
     </section>
 
+    <!-- Some projects -->
+    <section class="projects-section">
+        <p class="services-header">Projects</p>
+        <div class="grid-container grid-projects">
+            <div class="grid-container-item">
+                <a href="/projects/CSSVariableAndJS.html" class="grid-item">
+                    <div class="project-item">
+                        <img class="project-image" src="/assets/images/image.png" alt="CSS Variables and JS">
+                        <p class="project-header">CSS Variables & JavaScript</p>
+                        <p class="project-description">Manipulate CSS variables dynamically using JavaScript for interactive styling effects.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-container-item">
+                <a href="/projects/drumkit.html" class="grid-item">
+                    <div class="project-item">
+                        <img class="project-image" src="/assets/images/drumkit.png" alt="Drum kit">
+                        <p class="project-header">CS + JS Clock</p>
+                        <p class="project-description">A dynamic clock using CSS and JavaScript for real-time updates.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-container-item">
+                <a href="" class="grid-item">
+                    <div class="project-item">
+                        <img class="project-image" src="/assets/images/six22.png" alt="Drum kit">
+                        <p class="project-header">JavaScript Drum Kit</p>
+                        <p class="project-description">Play drum sounds using keyboard presses with JavaScript-powered interactions.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
     <section class="testimonials">
         <h2>What Parents Say</h2>
 
@@ -240,6 +276,6 @@
         </div>
     </footer>
     
-<script src="/Six22.js"></script>
+<script src="/js/Six22.js"></script>
 </body>
 </html>

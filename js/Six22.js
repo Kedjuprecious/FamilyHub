@@ -12,6 +12,6 @@ menu.addEventListener("click",()=>{
 })
 
 closeIcon.addEventListener("click", ()=>{
-    console.log("Hello");
+    // console.log("Hello");
     mobileNav.style.display = "none"
 })
